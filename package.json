@@ -1,0 +1,19 @@
+{
+  "name": "sockets",
+  "version": "1.0.0",
+  "description": "PROYECTO ENLAZADO A AZURE DEVOPS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AngelinHdezD/Proyecto_Sockets.git"
+  },
+  "author": "Angel Hernandez Diaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AngelinHdezD/Proyecto_Sockets/issues"
+  },
+  "homepage": "https://github.com/AngelinHdezD/Proyecto_Sockets#readme"
+}
