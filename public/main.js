@@ -8,10 +8,12 @@ render(data);
 });
 
 function render(data){
-var html = `<div>
-    <strong>${data.autor}</strong>:
-    <em>${data.texto}</em>
-    </div>`;
+var html = data.map(function(elem, index){
+    return (`<div>
+    <strong>${elem.autor}</strong>:
+    <em>${elem.texto}</em>
+    </div>`);
+}).join("");
 
     document.getElementById('messages').innerHTML = html;
 }
